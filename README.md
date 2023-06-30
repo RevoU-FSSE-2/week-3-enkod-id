@@ -1,1 +1,12 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/nVsM4ivD)
+<h1>About the Project</h1>
+<p>This is an example of a responsive website that uses a grid container,</p>
+<h1>Build with</h1>
+<ul>
+  <li>HTML 5</li>
+  <li>CSS</li>
+  <li>JAVASCRIPT</li>
+</ul>
+
+<ul>
+  <li>Project link <a href="https://willowy-figolla-d0c67b.netlify.app/">Click Here</a></li>
+</ul>
