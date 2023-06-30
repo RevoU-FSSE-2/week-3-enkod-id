@@ -1,0 +1,122 @@
+.mobile {
+    display: none;
+  }
+  
+  .desktop {
+    display: block;
+  }
+  
+  @media only screen and (max-width: 1023px) {
+    .mobile {
+      display: block;
+    }
+  
+    .desktop {
+      display: none;
+    }
+  }
+
+
+  @media only screen and (min-width: 368px) {
+
+    #bola-photos .grid-container img {
+        width: 100%;
+        border-radius:10px;
+    }
+
+
+    #section-vid .flex-container img{
+        width: 100%;
+    }
+
+    #section-vid .flex-container iframe{
+        min-width: 340px;
+    }
+
+  }
+
+
+  @media only screen and (min-width: 768px) {
+
+    #section-vid{
+        margin-top:200px;
+        display: flex;
+    }
+    
+    
+    #section-vid .flex-container > div{
+        width: 50%;
+    }
+    
+    #section-vid .flex-container{
+        display: flex;
+        gap: 16px;
+    }
+    
+    #section-vid .flex-container > div h2{
+        text-align: center;
+    }
+    
+    #section-vid .flex-container img{
+        width: 500px;
+    }
+    
+    
+    
+    
+    
+    #bola-photos .grid-container {
+        display: flex;
+        gap: 16px;
+    } 
+    
+    #bola-photos .grid-container img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius:10px;
+      }
+
+      #bola-photos .grid-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-gap: 16px;
+        grid-auto-rows: 320px 320px;
+      }
+    
+      #bola-photos .grid-container img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+
+      .grid-container #item-1 {
+        grid-column: 1;
+        grid-row: 1 / 2 span;
+      }
+    
+      .grid-container #item-2 {
+        grid-row: 1;
+        grid-column: 2 / 3 span;
+      }  
+    
+    
+    }
+
+    @media only screen and (min-width: 368px) {
+      #bola-photos .grid-container {
+        display: grid;
+        
+        grid-gap: 16px;
+        grid-auto-rows: 320px 320px;
+      }
+      
+    
+      #bola-photos .grid-container img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+
+      
+    }
